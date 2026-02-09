@@ -1,0 +1,588 @@
+true_label,predicted_label,confidence,decision_note
+Acne,Acne,0.75,High confidence
+Colds & Flu,Colds & Flu,0.9833333333333333,High confidence
+Migraine,Migraine,0.82,High confidence
+Other,Other,0.7234336758706381,High confidence
+Osteoporosis,Osteoporosis,0.9633333333333334,High confidence
+Pain,Pain,0.7636881287497475,High confidence
+Hypertension,Hypertension,0.8266666666666667,High confidence
+Pain,Osteoarthritis,0.5070508018840837,Medium confidence – Top-3 suggested
+Bronchitis,Bronchitis,0.9666666666666667,High confidence
+Other,Other,0.7868488757688922,High confidence
+Other,Other,0.46773321683413427,Medium confidence – Top-3 suggested
+Hayfever,Colds & Flu,0.9733333333333334,High confidence
+Psoriasis,Other,0.16205792989714887,Low confidence – review recommended
+Acne,Other,0.16205792989714887,Low confidence – review recommended
+Bronchitis,Bronchitis,0.74,High confidence
+Other,Other,0.16205792989714887,Low confidence – review recommended
+Osteoarthritis,Migraine,0.6050198008219252,Medium confidence – Top-3 suggested
+Colds & Flu,Colds & Flu,0.9866666666666667,High confidence
+Diabetes (Type 1),Diabetes (Type 1),0.9033333333333333,High confidence
+Other,Other,0.7302777777777778,High confidence
+Acne,Other,0.3212401460370481,Low confidence – review recommended
+Bronchitis,Bronchitis,0.9333333333333333,High confidence
+Hayfever,Other,0.16205792989714887,Low confidence – review recommended
+Acne,Colds & Flu,0.5166666666666667,Medium confidence – Top-3 suggested
+Depression,Other,0.41,Medium confidence – Top-3 suggested
+Diabetes (Type 2),Diabetes (Type 2),0.7133333333333334,High confidence
+Diabetes (Type 2),Diabetes (Type 2),0.5633333333333334,Medium confidence – Top-3 suggested
+ADHD,ADHD,0.5661476896535355,Medium confidence – Top-3 suggested
+Hayfever,Other,0.16205792989714887,Low confidence – review recommended
+Osteoarthritis,Osteoarthritis,1.0,High confidence
+Colds & Flu,Pain,0.5766666666666667,Medium confidence – Top-3 suggested
+Constipation,Other,0.3212401460370481,Low confidence – review recommended
+Other,Other,0.9066666666666666,High confidence
+Other,Other,0.16205792989714887,Low confidence – review recommended
+Other,Other,0.8466666666666667,High confidence
+Acne,Pain,0.9066666666666666,High confidence
+Osteoarthritis,Other,0.16205792989714887,Low confidence – review recommended
+GERD (Heartburn),GERD (Heartburn),0.94,High confidence
+Hypertension,Hypertension,0.7766666666666666,High confidence
+Hypertension,Hypertension,0.74,High confidence
+Other,Other,0.4580534351145038,Medium confidence – Top-3 suggested
+Hypertension,Other,0.16205792989714887,Low confidence – review recommended
+Pain,Other,0.16205792989714887,Low confidence – review recommended
+ADHD,Other,0.16205792989714887,Low confidence – review recommended
+Angina,Angina,0.6333333333333333,Medium confidence – Top-3 suggested
+Colds & Flu,Colds & Flu,1.0,High confidence
+Osteoarthritis,Other,0.16205792989714887,Low confidence – review recommended
+Other,Other,0.76,High confidence
+Diabetes (Type 2),Diabetes (Type 2),0.7333333333333333,High confidence
+Hypertension,Hypertension,0.96,High confidence
+Insomnia,Insomnia,0.8533333333333334,High confidence
+Other,Other,0.5369037448540014,Medium confidence – Top-3 suggested
+Pain,Pain,1.0,High confidence
+Other,Other,0.3630519022406379,Medium confidence – Top-3 suggested
+Other,Other,1.0,High confidence
+Other,Other,0.9734134606257538,High confidence
+Osteoarthritis,Osteoarthritis,0.88,High confidence
+Constipation,Constipation,0.84,High confidence
+Hypertension,Hypertension,0.3633816154866512,Medium confidence – Top-3 suggested
+Osteoarthritis,Osteoarthritis,0.37666666666666665,Medium confidence – Top-3 suggested
+Other,Other,0.98,High confidence
+Other,Other,0.9033333333333333,High confidence
+Eczema,Other,0.16205792989714887,Low confidence – review recommended
+Colds & Flu,Colds & Flu,0.7002006736574465,High confidence
+ADHD,ADHD,0.5846330983198288,Medium confidence – Top-3 suggested
+Colds & Flu,Colds & Flu,0.8433333333333334,High confidence
+Colds & Flu,Colds & Flu,0.97,High confidence
+Migraine,Migraine,0.9266666666666666,High confidence
+Depression,Depression,0.6473368123335552,Medium confidence – Top-3 suggested
+Colds & Flu,Colds & Flu,1.0,High confidence
+Hayfever,Hayfever,0.6609319342165453,Medium confidence – Top-3 suggested
+Acne,Acne,1.0,High confidence
+Pain,Pain,0.8458680938430587,High confidence
+Depression,Depression,0.6913786254166553,Medium confidence – Top-3 suggested
+Seizures,Other,0.39009426050837226,Medium confidence – Top-3 suggested
+Acne,Acne,0.41,Medium confidence – Top-3 suggested
+Angina,Angina,0.74,High confidence
+Eczema,Eczema,0.9966666666666667,High confidence
+AIDS/HIV,AIDS/HIV,1.0,High confidence
+Insomnia,Insomnia,0.7066666666666667,High confidence
+Other,Other,0.7,High confidence
+Colds & Flu,Pain,0.593651150757583,Medium confidence – Top-3 suggested
+Constipation,Constipation,0.9866666666666667,High confidence
+Insomnia,Insomnia,0.6733333333333333,Medium confidence – Top-3 suggested
+Colds & Flu,Colds & Flu,0.8467721057567751,High confidence
+Osteoarthritis,Osteoarthritis,0.8466666666666667,High confidence
+Other,Other,0.7166666666666667,High confidence
+Pain,Acne,0.9466666666666667,High confidence
+Pain,Pain,0.8873234729755143,High confidence
+Colds & Flu,Colds & Flu,0.8869309838472835,High confidence
+GERD (Heartburn),Other,0.16205792989714887,Low confidence – review recommended
+Eczema,Other,0.16205792989714887,Low confidence – review recommended
+Pain,Other,0.16205792989714887,Low confidence – review recommended
+Colds & Flu,Colds & Flu,0.98,High confidence
+AIDS/HIV,AIDS/HIV,0.9933333333333333,High confidence
+Other,Other,0.9069359109422803,High confidence
+Acne,Acne,1.0,High confidence
+Diabetes (Type 2),Diabetes (Type 2),0.9633333333333334,High confidence
+Hayfever,Colds & Flu,0.9533333333333334,High confidence
+Pain,Pain,0.6739260214814853,Medium confidence – Top-3 suggested
+Seizures,Seizures,0.7858472654755224,High confidence
+Other,Other,0.91,High confidence
+Eczema,Eczema,0.9275363418439948,High confidence
+Hypertension,Hypertension,0.6033707342145785,Medium confidence – Top-3 suggested
+Other,Other,0.33815539488187496,Low confidence – review recommended
+Osteoporosis,Osteoporosis,0.7833333333333333,High confidence
+Acne,Acne,0.5435443205852338,Medium confidence – Top-3 suggested
+Other,Other,0.4171576855942571,Medium confidence – Top-3 suggested
+Bronchitis,Bronchitis,0.9,High confidence
+Other,Other,0.16205792989714887,Low confidence – review recommended
+AIDS/HIV,AIDS/HIV,0.99,High confidence
+Acne,Other,0.16205792989714887,Low confidence – review recommended
+Hypertension,Hypertension,0.43,Medium confidence – Top-3 suggested
+Migraine,Migraine,0.65,Medium confidence – Top-3 suggested
+Colds & Flu,Colds & Flu,1.0,High confidence
+Pain,Pain,0.6266666666666667,Medium confidence – Top-3 suggested
+Colds & Flu,Colds & Flu,0.8733333333333333,High confidence
+AIDS/HIV,AIDS/HIV,0.9766666666666667,High confidence
+Colds & Flu,Other,0.16205792989714887,Low confidence – review recommended
+Constipation,Constipation,0.9866666666666667,High confidence
+Psoriasis,Psoriasis,0.9933333333333333,High confidence
+Seizures,Other,0.38157045084247637,Medium confidence – Top-3 suggested
+Acne,Acne,1.0,High confidence
+Pain,Pain,0.8866666666666667,High confidence
+Colds & Flu,Colds & Flu,1.0,High confidence
+Osteoarthritis,Osteoarthritis,1.0,High confidence
+Other,Other,0.49666666666666665,Medium confidence – Top-3 suggested
+Pneumonia,Pneumonia,0.45666666666666667,Medium confidence – Top-3 suggested
+Acne,Acne,0.6972244179958917,Medium confidence – Top-3 suggested
+Colds & Flu,Colds & Flu,0.7533333333333333,High confidence
+Acne,Acne,0.6940341074940861,Medium confidence – Top-3 suggested
+Pain,Other,0.44666666666666666,Medium confidence – Top-3 suggested
+Eczema,Eczema,0.9136676415479023,High confidence
+GERD (Heartburn),GERD (Heartburn),0.9433333333333334,High confidence
+Colds & Flu,Colds & Flu,0.9833333333333333,High confidence
+Other,Other,0.7633333333333333,High confidence
+Other,Other,0.9233333333333333,High confidence
+Depression,ADHD,0.6466666666666666,Medium confidence – Top-3 suggested
+Diabetes (Type 1),Diabetes (Type 1),0.9966666666666667,High confidence
+Hypertension,Other,0.38666666666666666,Medium confidence – Top-3 suggested
+Colds & Flu,Colds & Flu,0.9533333333333334,High confidence
+AIDS/HIV,Other,0.31666666666666665,Low confidence – review recommended
+AIDS/HIV,AIDS/HIV,0.9833333333333333,High confidence
+Acne,Acne,0.6235391919933883,Medium confidence – Top-3 suggested
+Acne,Acne,0.3566666666666667,Medium confidence – Top-3 suggested
+Diabetes (Type 1),Diabetes (Type 1),0.99,High confidence
+Pneumonia,Pneumonia,0.91,High confidence
+Hypertension,Hypertension,0.4667016021156338,Medium confidence – Top-3 suggested
+Pneumonia,Pneumonia,0.6666666666666666,Medium confidence – Top-3 suggested
+Other,Diabetes (Type 2),0.38666666666666666,Medium confidence – Top-3 suggested
+Acne,Acne,0.9966666666666667,High confidence
+AIDS/HIV,AIDS/HIV,0.9533333333333334,High confidence
+Depression,Other,0.38210317609460315,Medium confidence – Top-3 suggested
+Depression,Other,0.8634227309011235,High confidence
+Hypertension,Hypertension,0.93,High confidence
+Hypertension,Hypertension,0.9633333333333334,High confidence
+Acne,Other,0.19333333333333333,Low confidence – review recommended
+Psoriasis,Psoriasis,0.44333333333333336,Medium confidence – Top-3 suggested
+Other,Other,0.6966666666666667,Medium confidence – Top-3 suggested
+Angina,Angina,0.7666666666666667,High confidence
+Constipation,Constipation,0.7866666666666666,High confidence
+Constipation,Constipation,0.8466666666666667,High confidence
+Acne,Acne,0.7966666666666666,High confidence
+Acne,Acne,0.75,High confidence
+Insomnia,Insomnia,0.9733333333333334,High confidence
+Hypertension,Other,0.31,Low confidence – review recommended
+Hayfever,Hayfever,0.7533333333333333,High confidence
+Hayfever,Hayfever,0.9933333333333333,High confidence
+Diabetes (Type 2),Diabetes (Type 2),0.8933333333333333,High confidence
+Osteoarthritis,Osteoarthritis,0.9933333333333333,High confidence
+Hypertension,Hypertension,0.84,High confidence
+Bronchitis,Bronchitis,0.37,Medium confidence – Top-3 suggested
+Other,Other,0.6866666666666666,Medium confidence – Top-3 suggested
+Diabetes (Type 2),Diabetes (Type 2),0.7666666666666667,High confidence
+Acne,Bronchitis,0.5133333333333333,Medium confidence – Top-3 suggested
+ADHD,ADHD,0.6733333333333333,Medium confidence – Top-3 suggested
+Other,Other,0.8566666666666667,High confidence
+Psoriasis,Other,0.3137481128449763,Low confidence – review recommended
+Osteoarthritis,Osteoarthritis,0.6733333333333333,Medium confidence – Top-3 suggested
+AIDS/HIV,AIDS/HIV,0.94,High confidence
+Pain,GERD (Heartburn),0.5733333333333334,Medium confidence – Top-3 suggested
+Angina,Angina,0.73,High confidence
+Other,Other,0.3466666666666667,Low confidence – review recommended
+Pain,Angina,0.6833296345209684,Medium confidence – Top-3 suggested
+Pain,Pain,0.9366666666666666,High confidence
+Diabetes (Type 2),Diabetes (Type 2),0.66,Medium confidence – Top-3 suggested
+Pain,Other,0.28759238165069306,Low confidence – review recommended
+Acne,Acne,0.79,High confidence
+Diabetes (Type 1),Diabetes (Type 1),0.9633333333333334,High confidence
+Other,Other,0.9702129614791375,High confidence
+Pain,Pain,0.8633333333333333,High confidence
+Insomnia,Insomnia,0.9053175598293399,High confidence
+Hayfever,Hayfever,0.7252674916149476,High confidence
+Other,Other,0.33389782159124476,Low confidence – review recommended
+Osteoarthritis,Osteoarthritis,0.49614995764706243,Medium confidence – Top-3 suggested
+Acne,Acne,0.9633333333333334,High confidence
+Eczema,Eczema,1.0,High confidence
+Pain,GERD (Heartburn),0.4353567504690045,Medium confidence – Top-3 suggested
+Other,Other,0.7234602026428787,High confidence
+Eczema,Eczema,0.966278715424285,High confidence
+AIDS/HIV,AIDS/HIV,0.98,High confidence
+Diabetes (Type 2),Diabetes (Type 2),0.7633333333333333,High confidence
+Eczema,Eczema,0.9033333333333333,High confidence
+Diabetes (Type 2),Diabetes (Type 2),0.44333333333333336,Medium confidence – Top-3 suggested
+Hayfever,Hayfever,0.6975986008832119,Medium confidence – Top-3 suggested
+Osteoarthritis,Osteoarthritis,0.7033333333333334,High confidence
+Pneumonia,Other,0.34,Low confidence – review recommended
+Other,Other,0.843417620871948,High confidence
+Angina,Angina,0.8133333333333334,High confidence
+Seizures,Other,0.74,High confidence
+Osteoarthritis,Migraine,0.36666666666666664,Medium confidence – Top-3 suggested
+Seizures,Other,0.388237117509143,Medium confidence – Top-3 suggested
+Colds & Flu,Colds & Flu,0.8633644264868277,High confidence
+Other,Other,0.7339078396169958,High confidence
+Pneumonia,Other,0.32,Low confidence – review recommended
+Colds & Flu,Colds & Flu,0.74,High confidence
+Other,Other,0.7467755929826504,High confidence
+Psoriasis,Psoriasis,0.61,Medium confidence – Top-3 suggested
+Pain,Other,0.16205792989714887,Low confidence – review recommended
+Colds & Flu,Colds & Flu,0.9166666666666666,High confidence
+Other,Eczema,0.5484672786087188,Medium confidence – Top-3 suggested
+Colds & Flu,Colds & Flu,0.94,High confidence
+Angina,Angina,0.48,Medium confidence – Top-3 suggested
+Bronchitis,Bronchitis,0.9533333333333334,High confidence
+GERD (Heartburn),GERD (Heartburn),1.0,High confidence
+Constipation,Constipation,1.0,High confidence
+Acne,Acne,1.0,High confidence
+AIDS/HIV,Other,0.2733333333333333,Low confidence – review recommended
+Osteoarthritis,Osteoarthritis,0.97,High confidence
+Pain,Other,0.7633333333333333,High confidence
+Osteoarthritis,Osteoarthritis,0.6966666666666667,Medium confidence – Top-3 suggested
+Eczema,Psoriasis,0.5220967780105572,Medium confidence – Top-3 suggested
+Other,Other,0.30333333333333334,Low confidence – review recommended
+Other,Other,0.9766666666666667,High confidence
+Migraine,Migraine,0.9233333333333333,High confidence
+Seizures,Seizures,0.6501642922198535,Medium confidence – Top-3 suggested
+Hayfever,Other,0.29,Low confidence – review recommended
+Pneumonia,Other,0.21747531358420066,Low confidence – review recommended
+Acne,Acne,1.0,High confidence
+AIDS/HIV,AIDS/HIV,0.9866666666666667,High confidence
+Diabetes (Type 1),Diabetes (Type 1),1.0,High confidence
+Pain,Pain,0.61,Medium confidence – Top-3 suggested
+Other,Other,0.8866666666666667,High confidence
+GERD (Heartburn),Other,0.16205792989714887,Low confidence – review recommended
+Diabetes (Type 1),Diabetes (Type 1),0.99,High confidence
+Other,Other,0.82,High confidence
+Diabetes (Type 1),Diabetes (Type 1),0.9966666666666667,High confidence
+Pain,Other,0.66,Medium confidence – Top-3 suggested
+Other,Other,0.91,High confidence
+Other,Other,0.78,High confidence
+Eczema,Eczema,0.9966666666666667,High confidence
+Eczema,Eczema,0.7395429805507703,High confidence
+Colds & Flu,Colds & Flu,0.98,High confidence
+Acne,Acne,0.9869002987658017,High confidence
+Colds & Flu,Insomnia,0.8203535153077631,High confidence
+Angina,Angina,0.9066666666666666,High confidence
+Other,Other,0.8366666666666667,High confidence
+Colds & Flu,Pain,0.6,Medium confidence – Top-3 suggested
+Acne,Acne,0.75,High confidence
+Other,Other,0.73,High confidence
+Acne,Acne,0.9966666666666667,High confidence
+Colds & Flu,Colds & Flu,0.9766666666666667,High confidence
+Pain,Pain,0.9833333333333333,High confidence
+Pneumonia,Pneumonia,0.47,Medium confidence – Top-3 suggested
+ADHD,Other,0.3508259197195884,Medium confidence – Top-3 suggested
+Other,Pain,0.9905092502574159,High confidence
+Osteoarthritis,Osteoarthritis,0.5966666666666667,Medium confidence – Top-3 suggested
+Osteoarthritis,Osteoarthritis,0.9,High confidence
+Acne,Acne,0.9966666666666667,High confidence
+Acne,Other,0.16205792989714887,Low confidence – review recommended
+Eczema,Other,0.16205792989714887,Low confidence – review recommended
+Migraine,Other,0.27666666666666667,Low confidence – review recommended
+Other,Other,0.7072413793103448,High confidence
+Psoriasis,Psoriasis,0.6335896865987494,Medium confidence – Top-3 suggested
+Psoriasis,Psoriasis,0.5571563868828275,Medium confidence – Top-3 suggested
+Acne,Constipation,0.5633333333333334,Medium confidence – Top-3 suggested
+Hypertension,Hypertension,0.93,High confidence
+Other,Other,0.7833333333333333,High confidence
+Osteoporosis,Osteoporosis,0.8633333333333333,High confidence
+Other,Other,0.63,Medium confidence – Top-3 suggested
+Osteoarthritis,Osteoarthritis,0.8966666666666666,High confidence
+Eczema,Eczema,0.8895078299776287,High confidence
+Other,Other,0.82,High confidence
+Other,Other,1.0,High confidence
+Colds & Flu,Colds & Flu,0.9866666666666667,High confidence
+Hypertension,Other,0.29,Low confidence – review recommended
+AIDS/HIV,AIDS/HIV,0.97,High confidence
+Constipation,Constipation,0.9066666666666666,High confidence
+Other,Other,0.8766666666666667,High confidence
+AIDS/HIV,AIDS/HIV,1.0,High confidence
+Pain,Other,0.67,Medium confidence – Top-3 suggested
+Hayfever,Hayfever,0.6609319342165453,Medium confidence – Top-3 suggested
+Eczema,Eczema,0.9713713080168777,High confidence
+Diabetes (Type 2),Diabetes (Type 2),0.95,High confidence
+Hypertension,Hypertension,0.8233333333333334,High confidence
+Hypertension,Other,0.31,Low confidence – review recommended
+Colds & Flu,Osteoarthritis,0.73,High confidence
+Seizures,Seizures,0.77,High confidence
+Other,Other,0.16205792989714887,Low confidence – review recommended
+Other,Other,0.7268730302866696,High confidence
+Other,Other,0.62,Medium confidence – Top-3 suggested
+Bronchitis,Bronchitis,0.7666666666666667,High confidence
+Other,Other,0.3812338225354725,Medium confidence – Top-3 suggested
+Other,Other,0.94,High confidence
+Colds & Flu,Colds & Flu,0.82,High confidence
+Other,Other,0.85,High confidence
+Psoriasis,Psoriasis,0.8866666666666667,High confidence
+Other,Other,0.4018707994828642,Medium confidence – Top-3 suggested
+Angina,Angina,0.74,High confidence
+Pneumonia,Pneumonia,0.41,Medium confidence – Top-3 suggested
+Hypertension,Hypertension,0.72,High confidence
+Hayfever,Hayfever,0.48,Medium confidence – Top-3 suggested
+Insomnia,Insomnia,0.9633333333333334,High confidence
+AIDS/HIV,AIDS/HIV,0.9966666666666667,High confidence
+Acne,Acne,0.9366666666666666,High confidence
+Hayfever,Hayfever,0.6975986008832119,Medium confidence – Top-3 suggested
+Other,Other,0.85,High confidence
+AIDS/HIV,AIDS/HIV,0.98,High confidence
+Pain,Other,0.16205792989714887,Low confidence – review recommended
+Pneumonia,Pneumonia,0.7566666666666667,High confidence
+Hayfever,Hayfever,0.49048831768266815,Medium confidence – Top-3 suggested
+Pain,Pain,0.37388914310762955,Medium confidence – Top-3 suggested
+Acne,Acne,1.0,High confidence
+Hypertension,Hypertension,0.45246533263120936,Medium confidence – Top-3 suggested
+Insomnia,Insomnia,0.9066666666666666,High confidence
+Colds & Flu,Colds & Flu,0.9566666666666667,High confidence
+Other,Other,0.8568447766473035,High confidence
+Diabetes (Type 1),Diabetes (Type 1),0.94,High confidence
+Pain,Angina,0.6562566435093286,Medium confidence – Top-3 suggested
+Osteoarthritis,Osteoarthritis,0.88,High confidence
+Hypertension,Hypertension,0.5633707342145785,Medium confidence – Top-3 suggested
+Other,Colds & Flu,0.5457586388606159,Medium confidence – Top-3 suggested
+Hayfever,Other,0.43666666666666665,Medium confidence – Top-3 suggested
+Colds & Flu,Insomnia,0.8203535153077631,High confidence
+Other,Other,0.7433333333333333,High confidence
+Pain,Acne,0.5633333333333334,Medium confidence – Top-3 suggested
+GERD (Heartburn),Other,0.26666666666666666,Low confidence – review recommended
+GERD (Heartburn),GERD (Heartburn),0.5966666666666667,Medium confidence – Top-3 suggested
+Hayfever,Other,0.25,Low confidence – review recommended
+Migraine,Other,0.4509683505745992,Medium confidence – Top-3 suggested
+Acne,Other,0.16205792989714887,Low confidence – review recommended
+Hypertension,Hypertension,0.7233565798684396,High confidence
+Colds & Flu,Other,0.3212401460370481,Low confidence – review recommended
+Migraine,Migraine,0.5633333333333334,Medium confidence – Top-3 suggested
+Hayfever,Other,0.16205792989714887,Low confidence – review recommended
+Acne,Acne,0.9869002987658017,High confidence
+Pneumonia,Pneumonia,0.6966666666666667,Medium confidence – Top-3 suggested
+Pain,Pain,0.9366666666666666,High confidence
+Psoriasis,Psoriasis,0.7633333333333333,High confidence
+Angina,Angina,0.6833296345209684,Medium confidence – Top-3 suggested
+ADHD,ADHD,0.94,High confidence
+Bronchitis,Bronchitis,0.490067072492792,Medium confidence – Top-3 suggested
+Hayfever,Hayfever,0.6966666666666667,Medium confidence – Top-3 suggested
+Eczema,Eczema,0.9966666666666667,High confidence
+Acne,Acne,1.0,High confidence
+Colds & Flu,Colds & Flu,0.8007204886097253,High confidence
+Other,Other,0.85,High confidence
+Migraine,Migraine,0.9066666666666666,High confidence
+Osteoporosis,Osteoporosis,0.9866666666666667,High confidence
+Colds & Flu,Colds & Flu,0.8033333333333333,High confidence
+Angina,Angina,0.73,High confidence
+Other,Other,0.82,High confidence
+Diabetes (Type 2),Diabetes (Type 2),0.9466666666666667,High confidence
+Acne,Acne,1.0,High confidence
+AIDS/HIV,AIDS/HIV,0.99,High confidence
+GERD (Heartburn),Other,0.26666666666666666,Low confidence – review recommended
+Other,Acne,0.4105896002833343,Medium confidence – Top-3 suggested
+Hypertension,Hypertension,0.4866666666666667,Medium confidence – Top-3 suggested
+Psoriasis,Psoriasis,0.6802563532654162,Medium confidence – Top-3 suggested
+Eczema,Eczema,0.6566666666666666,Medium confidence – Top-3 suggested
+Hayfever,Other,0.3234572445777491,Low confidence – review recommended
+Osteoporosis,Osteoporosis,0.8033333333333333,High confidence
+Acne,Acne,1.0,High confidence
+Acne,Acne,0.97,High confidence
+Depression,Other,0.6871208073612348,Medium confidence – Top-3 suggested
+Other,Other,0.37354169787439884,Medium confidence – Top-3 suggested
+Angina,Angina,1.0,High confidence
+Seizures,Seizures,0.6879962394835583,Medium confidence – Top-3 suggested
+Hypertension,Hypertension,0.7166666666666667,High confidence
+Migraine,Other,0.16205792989714887,Low confidence – review recommended
+Eczema,Other,0.27713801677312006,Low confidence – review recommended
+Other,Other,0.9966666666666667,High confidence
+Colds & Flu,Colds & Flu,0.9866666666666667,High confidence
+AIDS/HIV,AIDS/HIV,0.5566666666666666,Medium confidence – Top-3 suggested
+Eczema,Other,0.16205792989714887,Low confidence – review recommended
+Hayfever,Hayfever,0.9333333333333333,High confidence
+Angina,Angina,0.97,High confidence
+Acne,Acne,0.99,High confidence
+Insomnia,Insomnia,0.8666666666666667,High confidence
+ADHD,ADHD,0.99,High confidence
+GERD (Heartburn),GERD (Heartburn),0.5933333333333334,Medium confidence – Top-3 suggested
+Hayfever,Other,0.34008367563480185,Low confidence – review recommended
+Pneumonia,Other,0.16205792989714887,Low confidence – review recommended
+Other,Other,0.6967702433505449,Medium confidence – Top-3 suggested
+Colds & Flu,Colds & Flu,0.9766666666666667,High confidence
+Diabetes (Type 2),Diabetes (Type 2),0.81,High confidence
+Pneumonia,Other,0.236950852557673,Low confidence – review recommended
+Hypertension,Hypertension,0.7466666666666667,High confidence
+Eczema,Other,0.48333333333333334,Medium confidence – Top-3 suggested
+Other,Other,0.71,High confidence
+Hypertension,Hypertension,0.93,High confidence
+Pain,Colds & Flu,0.8666666666666667,High confidence
+Other,Other,0.22666666666666666,Low confidence – review recommended
+Other,Other,0.8133333333333334,High confidence
+Other,Pain,0.9838425835907492,High confidence
+Hypertension,Hypertension,0.9633333333333334,High confidence
+Colds & Flu,Insomnia,0.8203535153077631,High confidence
+Other,Other,0.6333333333333333,Medium confidence – Top-3 suggested
+Insomnia,Insomnia,0.9053175598293399,High confidence
+Other,Other,0.9133333333333333,High confidence
+Other,Other,0.3845671558688058,Medium confidence – Top-3 suggested
+Colds & Flu,Colds & Flu,0.94,High confidence
+Other,Other,0.99,High confidence
+Diabetes (Type 2),Diabetes (Type 2),0.68,Medium confidence – Top-3 suggested
+Diabetes (Type 2),Diabetes (Type 2),0.37333333333333335,Medium confidence – Top-3 suggested
+Eczema,Eczema,0.9713713080168777,High confidence
+Bronchitis,Bronchitis,0.9666666666666667,High confidence
+Other,Other,0.8833333333333333,High confidence
+Psoriasis,Psoriasis,1.0,High confidence
+Other,Other,0.5775488774388907,Medium confidence – Top-3 suggested
+Bronchitis,Bronchitis,0.9933333333333333,High confidence
+Other,Other,0.7066666666666667,High confidence
+Pain,Pain,0.9166666666666666,High confidence
+Pain,Pain,0.49333333333333335,Medium confidence – Top-3 suggested
+Angina,Angina,0.8766666666666667,High confidence
+ADHD,ADHD,0.99,High confidence
+Psoriasis,Other,0.29178278872789626,Low confidence – review recommended
+Pain,Pain,0.9933333333333333,High confidence
+Pain,Pain,0.6133333333333333,Medium confidence – Top-3 suggested
+Osteoarthritis,Other,0.420531660692951,Medium confidence – Top-3 suggested
+Colds & Flu,Colds & Flu,0.8933333333333333,High confidence
+Depression,ADHD,0.6866666666666666,Medium confidence – Top-3 suggested
+Other,Acne,0.4105896002833343,Medium confidence – Top-3 suggested
+Other,Other,0.99,High confidence
+Bronchitis,Bronchitis,0.9766666666666667,High confidence
+Pain,Pain,0.9905092502574159,High confidence
+Other,Other,0.8266666666666667,High confidence
+Eczema,Eczema,0.9966666666666667,High confidence
+Osteoporosis,Other,0.16205792989714887,Low confidence – review recommended
+Psoriasis,Psoriasis,0.49333333333333335,Medium confidence – Top-3 suggested
+Osteoporosis,Osteoporosis,0.9533333333333334,High confidence
+Pain,Pain,0.7266666666666667,High confidence
+Eczema,Eczema,1.0,High confidence
+Hypertension,Other,0.2440314601075141,Low confidence – review recommended
+Hypertension,Hypertension,0.8466666666666667,High confidence
+Colds & Flu,Colds & Flu,0.92,High confidence
+Bronchitis,Bronchitis,0.95,High confidence
+Osteoporosis,GERD (Heartburn),0.5933333333333334,Medium confidence – Top-3 suggested
+Osteoporosis,Osteoporosis,0.61,Medium confidence – Top-3 suggested
+Acne,Acne,0.9633333333333334,High confidence
+Hayfever,Hayfever,0.98,High confidence
+Other,Other,0.20333333333333334,Low confidence – review recommended
+Acne,Acne,0.9033333333333333,High confidence
+Diabetes (Type 2),Diabetes (Type 2),0.5433945822439267,Medium confidence – Top-3 suggested
+Constipation,Constipation,0.9966666666666667,High confidence
+Depression,Other,0.31333333333333335,Low confidence – review recommended
+Hayfever,Hayfever,0.95,High confidence
+Hypertension,Hypertension,0.6866666666666666,Medium confidence – Top-3 suggested
+Colds & Flu,Other,0.3212401460370481,Low confidence – review recommended
+GERD (Heartburn),Other,0.16205792989714887,Low confidence – review recommended
+Hayfever,Hayfever,0.7,High confidence
+Hypertension,Hypertension,0.9566666666666667,High confidence
+Diabetes (Type 2),Diabetes (Type 2),0.45666666666666667,Medium confidence – Top-3 suggested
+Psoriasis,Psoriasis,0.9197875242117963,High confidence
+Osteoarthritis,Osteoarthritis,0.7,High confidence
+Hypertension,Hypertension,0.93,High confidence
+Osteoarthritis,Other,0.3288567138494279,Low confidence – review recommended
+Pain,Pain,0.9566666666666667,High confidence
+Pain,Pain,1.0,High confidence
+Diabetes (Type 1),Diabetes (Type 1),0.9766666666666667,High confidence
+Other,Bronchitis,0.53,Medium confidence – Top-3 suggested
+Eczema,Eczema,0.8956651980843071,High confidence
+Pain,Pain,0.8466666666666667,High confidence
+Diabetes (Type 1),Diabetes (Type 1),0.9966666666666667,High confidence
+Hypertension,Hypertension,0.7966666666666666,High confidence
+Insomnia,Other,0.230132543151225,Low confidence – review recommended
+Pain,Osteoarthritis,0.40217746881887395,Medium confidence – Top-3 suggested
+Other,Other,0.3134822998426917,Low confidence – review recommended
+Osteoporosis,Osteoporosis,0.97,High confidence
+Other,Other,0.8123287672723064,High confidence
+Other,Other,0.7266666666666667,High confidence
+Colds & Flu,Colds & Flu,0.9566666666666667,High confidence
+Insomnia,Insomnia,0.8866666666666667,High confidence
+Other,Other,0.8733333333333333,High confidence
+Colds & Flu,Colds & Flu,0.7939398876054194,High confidence
+Constipation,Constipation,0.8466666666666667,High confidence
+Hypertension,Hypertension,0.9407490636704119,High confidence
+Osteoarthritis,Osteoarthritis,0.97,High confidence
+Acne,Acne,0.8066666666666666,High confidence
+Acne,Colds & Flu,0.6933333333333334,Medium confidence – Top-3 suggested
+Osteoarthritis,Osteoarthritis,0.5801371061939959,Medium confidence – Top-3 suggested
+Migraine,Migraine,0.9666666666666667,High confidence
+Colds & Flu,Colds & Flu,0.7833333333333333,High confidence
+Other,Other,0.8833333333333333,High confidence
+Insomnia,Insomnia,0.7233333333333334,High confidence
+Other,Other,0.3466666666666667,Low confidence – review recommended
+Psoriasis,Psoriasis,0.7333333333333333,High confidence
+Acne,Acne,0.9733333333333334,High confidence
+Other,Other,0.9966666666666667,High confidence
+Colds & Flu,Colds & Flu,0.9533333333333334,High confidence
+Other,Other,0.7534487191890403,High confidence
+Pain,Pain,0.9833333333333333,High confidence
+Bronchitis,Bronchitis,0.79,High confidence
+Other,Other,0.8133333333333334,High confidence
+Other,Other,0.9733333333333334,High confidence
+Pain,Pain,0.8866666666666667,High confidence
+Migraine,Migraine,0.5066666666666667,Medium confidence – Top-3 suggested
+Other,Other,0.4739229371673758,Medium confidence – Top-3 suggested
+Pain,Pain,0.9,High confidence
+Pain,Pain,0.88,High confidence
+Other,Other,0.536746994653436,Medium confidence – Top-3 suggested
+Acne,Acne,0.94,High confidence
+AIDS/HIV,AIDS/HIV,0.5966666666666667,Medium confidence – Top-3 suggested
+Other,Other,0.34767523953605645,Low confidence – review recommended
+Other,Other,0.8833333333333333,High confidence
+AIDS/HIV,AIDS/HIV,1.0,High confidence
+Other,Other,0.73,High confidence
+GERD (Heartburn),GERD (Heartburn),0.5233333333333333,Medium confidence – Top-3 suggested
+Other,Other,0.99,High confidence
+Colds & Flu,Colds & Flu,0.8641993370712435,High confidence
+Other,Other,0.7201035766838783,High confidence
+Other,Other,0.3713078321678822,Medium confidence – Top-3 suggested
+Psoriasis,Other,0.3392935938610644,Low confidence – review recommended
+AIDS/HIV,AIDS/HIV,0.88,High confidence
+Eczema,Eczema,1.0,High confidence
+Other,Other,0.5005088636410033,Medium confidence – Top-3 suggested
+ADHD,Other,0.38666666666666666,Medium confidence – Top-3 suggested
+Acne,Other,0.3698644298524823,Medium confidence – Top-3 suggested
+GERD (Heartburn),GERD (Heartburn),0.43689149408424033,Medium confidence – Top-3 suggested
+Other,Other,0.40146164806121626,Medium confidence – Top-3 suggested
+Hayfever,Hayfever,0.5566666666666666,Medium confidence – Top-3 suggested
+Pain,Pain,0.9905092502574159,High confidence
+Psoriasis,Psoriasis,0.99,High confidence
+Acne,Other,0.16205792989714887,Low confidence – review recommended
+GERD (Heartburn),GERD (Heartburn),0.48333333333333334,Medium confidence – Top-3 suggested
+Pain,Pain,0.9833333333333333,High confidence
+Osteoporosis,Osteoporosis,0.94,High confidence
+Constipation,Constipation,0.5433333333333333,Medium confidence – Top-3 suggested
+Other,Other,0.3433333333333333,Low confidence – review recommended
+Pain,Angina,0.6633333333333333,Medium confidence – Top-3 suggested
+Constipation,Constipation,0.79,High confidence
+Pain,Angina,0.6597601996963779,Medium confidence – Top-3 suggested
+ADHD,Other,0.3667520656581083,Medium confidence – Top-3 suggested
+Diabetes (Type 2),Diabetes (Type 2),0.68,Medium confidence – Top-3 suggested
+AIDS/HIV,AIDS/HIV,0.9966666666666667,High confidence
+Diabetes (Type 2),Diabetes (Type 2),0.38666666666666666,Medium confidence – Top-3 suggested
+Migraine,Other,0.31342350215059783,Low confidence – review recommended
+Other,Other,0.3212401460370481,Low confidence – review recommended
+Other,Other,0.7335132834779631,High confidence
+Other,Other,0.64,Medium confidence – Top-3 suggested
+Diabetes (Type 1),Diabetes (Type 1),0.9966666666666667,High confidence
+Other,Other,0.5734945692072083,Medium confidence – Top-3 suggested
+Colds & Flu,Colds & Flu,0.6133333333333333,Medium confidence – Top-3 suggested
+Seizures,Seizures,0.8033333333333333,High confidence
+Hypertension,Angina,0.6433333333333333,Medium confidence – Top-3 suggested
+Other,Other,0.9766666666666667,High confidence
+Pain,Pain,0.9905092502574159,High confidence
+GERD (Heartburn),Other,0.5570176838626295,Medium confidence – Top-3 suggested
+Pain,Pain,0.9566666666666667,High confidence
+Other,Other,0.7302837519304819,High confidence
+Other,Other,0.6837412894731962,Medium confidence – Top-3 suggested
+Other,Other,0.5959436912689728,Medium confidence – Top-3 suggested
+Bronchitis,Bronchitis,0.8966666666666666,High confidence
+AIDS/HIV,AIDS/HIV,0.99,High confidence
+Osteoarthritis,Osteoarthritis,0.94,High confidence
+Other,Other,0.7166666666666667,High confidence
+Pain,Pain,0.5588462244826495,Medium confidence – Top-3 suggested
+Diabetes (Type 2),Pneumonia,0.39666666666666667,Medium confidence – Top-3 suggested
+Psoriasis,Other,0.56,Medium confidence – Top-3 suggested
+Other,Pain,0.8904879353705208,High confidence
+Acne,Acne,0.9966666666666667,High confidence
+Pneumonia,Pneumonia,0.7,High confidence
+Hypertension,Hypertension,0.91,High confidence
+Eczema,Pain,0.4001809178691855,Medium confidence – Top-3 suggested
+ADHD,ADHD,1.0,High confidence
+Seizures,Seizures,0.8349397764121637,High confidence
+Psoriasis,Psoriasis,0.69,Medium confidence – Top-3 suggested
+Diabetes (Type 2),Diabetes (Type 2),0.8733333333333333,High confidence
+Pain,Pain,0.8633333333333333,High confidence
+Depression,Other,0.35322551238520766,Medium confidence – Top-3 suggested
+Osteoarthritis,Osteoarthritis,0.5935496159538073,Medium confidence – Top-3 suggested
+Colds & Flu,Colds & Flu,0.7973871552763919,High confidence
+GERD (Heartburn),GERD (Heartburn),0.5985707994593173,Medium confidence – Top-3 suggested
+Pneumonia,Other,0.3466666666666667,Low confidence – review recommended
+Diabetes (Type 2),Diabetes (Type 2),0.87,High confidence
+Pain,Pain,1.0,High confidence
+Angina,Angina,0.7266666666666667,High confidence
