@@ -1,4 +1,4 @@
-# 🛒 Supermart360: Retail Profit Analytics & Predictive Modeling
+# Supermart360: Retail Profit Analytics & Predictive Modeling
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
