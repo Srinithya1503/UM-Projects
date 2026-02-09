@@ -1,4 +1,5 @@
-# Supply Chain Management Analytics Project
+# Supply Chain Management Analytics Project  
+Streamlit Dashboard: [http://localhost:8501/]
 
 ## Overview
 This project demonstrates an end-to-end **supply chain analytics workflow**, covering:
