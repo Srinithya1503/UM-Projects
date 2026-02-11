@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestRegressor
@@ -30,7 +31,9 @@ cross-sectional dataset and not a production forecasting engine.
 # --------------------------------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("supply_chain_data.csv")
+    BASE_DIR = os.path.dirname(__file__)
+    file_path = os.path.join(BASE_DIR, "supply_chain_data.csv")
+    return pd.read_csv(file_path)
 
 df = load_data()
 
