@@ -3,10 +3,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-import shap
-import joblib
 
-from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestRegressor
 
 # --------------------------------------------------
@@ -17,15 +15,14 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title(" Supply Chain Demand Analytics & Decision Support")
+st.title("Supply Chain Demand Analytics & Decision Support")
 
 st.markdown("""
-This dashboard translates **exploratory and predictive insights**
+This dashboard translates exploratory and predictive insights
 into actionable supply chain intelligence.
 
-⚠️ **Note**: This is a decision-support system built on a limited,
-cross-sectional dataset and should not be interpreted as a
-production forecasting engine.
+Note: This is a decision-support prototype built on a small
+cross-sectional dataset and not a production forecasting engine.
 """)
 
 # --------------------------------------------------
@@ -38,7 +35,7 @@ def load_data():
 df = load_data()
 
 # --------------------------------------------------
-# Feature Engineering (consistent with notebook)
+# Feature Engineering (Same as Modeling Notebook)
 # --------------------------------------------------
 def feature_engineering(df):
     df = df.copy()
@@ -58,42 +55,45 @@ df_fe = feature_engineering(df)
 section = st.sidebar.radio(
     "Navigate",
     [
-        "Overview",
-        "Demand Drivers",
-        "Inventory & Risk Analysis",
+        "Executive Overview",
+        "Demand Analysis",
+        "Inventory & Risk",
         "Quality & Logistics",
-        "Model Explainability",
+        "Model Insights",
         "Data Explorer",
-        "Methodology & Limitations"
+        "Methodology"
     ]
 )
 
 # --------------------------------------------------
-# Overview
+# Executive Overview
 # --------------------------------------------------
-if section == "Overview":
-    st.header("📊 Executive Overview")
+if section == "Executive Overview":
+
+    st.header("Executive Summary")
 
     col1, col2, col3 = st.columns(3)
 
-    col1.metric("Total Products", df["SKU"].nunique())
-    col2.metric("Avg Stock Level", round(df["Stock levels"].mean(), 1))
-    col3.metric("Avg Demand", round(df["Number of products sold"].mean(), 1))
+    col1.metric("Total SKUs", df["SKU"].nunique())
+    col2.metric("Average Demand", round(df["Number of products sold"].mean(), 1))
+    col3.metric("Average Stock Level", round(df["Stock levels"].mean(), 1))
 
     st.markdown("""
-    **Key Insights**
-    - Demand is strongly influenced by **inventory availability**
-    - Cost variables play a secondary role
-    - Logistics reliability affects demand indirectly
+    Key Observations:
+
+    • Demand is strongly influenced by inventory availability  
+    • Cost variables have limited direct influence  
+    • Logistics reliability indirectly impacts demand  
     """)
 
 # --------------------------------------------------
-# Demand Drivers
+# Demand Analysis
 # --------------------------------------------------
-elif section == "Demand Drivers":
-    st.header("📈 Demand Drivers Analysis")
+elif section == "Demand Analysis":
 
-    fig, ax = plt.subplots(figsize=(8, 5))
+    st.header("Demand vs Inventory Pressure")
+
+    fig, ax = plt.subplots()
     sns.scatterplot(
         data=df_fe,
         x="Inventory_Pressure",
@@ -104,40 +104,44 @@ elif section == "Demand Drivers":
     st.pyplot(fig)
 
     st.markdown("""
-    **Interpretation**
-    - High inventory pressure often precedes higher demand
-    - Indicates supply-constrained demand patterns
+    Interpretation:
+
+    Higher inventory pressure often signals constrained demand.
+    Demand variability supports the need for predictive modeling.
     """)
 
 # --------------------------------------------------
 # Inventory & Risk
 # --------------------------------------------------
-elif section == "Inventory & Risk Analysis":
-    st.header("📦 Inventory & Supply Risk")
+elif section == "Inventory & Risk":
 
-    fig, ax = plt.subplots(figsize=(8, 5))
+    st.header("Inventory Stress by Product Type")
+
+    fig, ax = plt.subplots()
     sns.boxplot(
         data=df_fe,
         x="Product type",
         y="Inventory_Pressure",
         ax=ax
     )
-    ax.set_title("Inventory Pressure by Product Type")
+    ax.set_title("Inventory Pressure Distribution")
     st.pyplot(fig)
 
     st.markdown("""
-    **Insight**
-    - Certain product categories consistently operate
-      under higher inventory stress
+    Insight:
+
+    Certain product categories operate under higher inventory stress,
+    increasing stockout and working capital risk.
     """)
 
 # --------------------------------------------------
 # Quality & Logistics
 # --------------------------------------------------
 elif section == "Quality & Logistics":
-    st.header("🚚 Quality & Logistics Impact")
 
-    fig, ax = plt.subplots(figsize=(8, 5))
+    st.header("Supply Risk Relationship")
+
+    fig, ax = plt.subplots()
     sns.scatterplot(
         data=df_fe,
         x="Defect rates",
@@ -148,98 +152,95 @@ elif section == "Quality & Logistics":
     st.pyplot(fig)
 
     st.markdown("""
-    **Observation**
-    - Higher defect rates often coincide with longer lead times
-    - Quality failures amplify logistics delays
+    Observation:
+
+    Higher defect rates are often associated with longer lead times.
+    Quality instability increases supply chain fragility.
     """)
 
 # --------------------------------------------------
-# Model Explainability
+# Model Insights
 # --------------------------------------------------
-elif section == "Model Explainability":
-    st.header("🤖 Model Explainability (SHAP)")
+elif section == "Model Insights":
 
-    st.markdown("""
-    A Random Forest model was trained to **understand demand drivers**.
-    The goal is explanation — not real-time prediction.
-    """)
+    st.header("Demand Driver Analysis")
 
-    # Prepare data
     target = "Number of products sold"
     drop_cols = ["SKU", "Revenue generated", target]
 
     X = df_fe.drop(columns=drop_cols, errors="ignore")
     y = df_fe[target]
 
-    # Encode categoricals
+    # Encode categorical columns
     for col in X.select_dtypes(include="object").columns:
         le = LabelEncoder()
         X[col] = le.fit_transform(X[col])
 
-    scaler = StandardScaler()
-    X_scaled = scaler.fit_transform(X)
-
+    # Lightweight Model
     model = RandomForestRegressor(
-        n_estimators=200,
-        max_depth=8,
+        n_estimators=150,
+        max_depth=6,
         random_state=42
     )
-    model.fit(X_scaled, y)
 
-    explainer = shap.TreeExplainer(model)
-    shap_values = explainer.shap_values(X_scaled)
-
-    st.subheader("Top Demand Drivers")
+    model.fit(X, y)
 
     importance = pd.Series(
         model.feature_importances_,
         index=X.columns
     ).sort_values(ascending=False)
 
-    fig, ax = plt.subplots(figsize=(8, 5))
-    sns.barplot(x=importance.values[:10], y=importance.index[:10], ax=ax)
+    fig, ax = plt.subplots()
+    sns.barplot(
+        x=importance.values[:10],
+        y=importance.index[:10],
+        ax=ax
+    )
     ax.set_title("Top 10 Demand Drivers")
     st.pyplot(fig)
 
     st.markdown("""
-    **Key Takeaways**
-    - Inventory pressure dominates demand prediction
-    - Supply risk indicators matter more than cost
-    - Pricing has limited short-term influence
+    Key Takeaways:
+
+    • Inventory pressure is the dominant demand driver  
+    • Supply risk indicators influence demand indirectly  
+    • Cost and price have limited short-term impact  
     """)
 
 # --------------------------------------------------
 # Data Explorer
 # --------------------------------------------------
 elif section == "Data Explorer":
-    st.header("🔍 Data Explorer")
 
+    st.header("Dataset Explorer")
     st.dataframe(df_fe)
 
 # --------------------------------------------------
-# Methodology & Limitations
+# Methodology
 # --------------------------------------------------
-elif section == "Methodology & Limitations":
-    st.header("📘 Methodology & Limitations")
+elif section == "Methodology":
+
+    st.header("Methodology & Limitations")
 
     st.markdown("""
-    **Methodology**
-    - Exploratory Data Analysis (EDA)
-    - Feature engineering grounded in supply chain theory
-    - Random Forest for explainability
-    - SHAP for interpretability
+    Methodology:
 
-    **Limitations**
-    - Small dataset (~100 rows)
-    - Cross-sectional (no time series)
-    - Synthetic / constrained variability
-    - Not suitable for production forecasting
+    • Exploratory Data Analysis  
+    • Domain-driven feature engineering  
+    • Random Forest for demand interpretation  
+    • Feature importance for explainability  
 
-    **Recommended Next Steps**
-    - Collect time-series sales data
-    - Integrate real logistics event data
-    - Transition to demand forecasting models
+    Limitations:
+
+    • Small dataset (~100 rows)  
+    • Cross-sectional (not time-series)  
+    • Limited generalization capability  
+
+    Recommended Next Step:
+
+    Transition to time-series demand forecasting using
+    historical transactional data.
     """)
 
 st.markdown("---")
-st.caption("Supply Chain Analytics | UM Internship Project")
+st.caption("Supply Chain Analytics | Internship Project")
