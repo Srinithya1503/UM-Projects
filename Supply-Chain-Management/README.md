@@ -1,5 +1,5 @@
 # Supply Chain Management Analytics Project  
-[Streamlit](http://localhost:8501/)
+[Streamlit](https://m4kjxwj5sfv7q4fynrbn9q.streamlit.app/)
 
 ## Overview
 This project demonstrates an end-to-end **supply chain analytics workflow**, covering:
