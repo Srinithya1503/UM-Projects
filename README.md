@@ -1,7 +1,7 @@
 
-# UM Online Internship – Data Science Projects
+# UM Data Science Projects
 
-This repository features a collection of end-to-end data science projects completed as part of the **UM Online Internship Program**. Each project demonstrates practical application of analytics, machine learning, explainability, and data-driven decision-making across diverse business domains.
+This repository features a collection of end-to-end data science projects completed. Each project demonstrates practical application of analytics, machine learning, explainability, and data-driven decision-making across diverse business domains.
 
 ## Projects Included
 
