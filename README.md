@@ -1,5 +1,5 @@
 
-# UM Data Science Projects
+# Data Science Projects
 
 This repository features a collection of end-to-end data science projects completed. Each project demonstrates practical application of analytics, machine learning, explainability, and data-driven decision-making across diverse business domains.
 
